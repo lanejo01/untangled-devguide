@@ -312,7 +312,7 @@
   At first this seems like a bit of overkill on the boilerplate until you realize that there are a number of things
   being handled here:
 
-  - Sychronous *reasoning* about most aspects of the application.
+  - Synchronous *reasoning* about most aspects of the application.
   - Local optimistic (immediate) updates (through `:action`)
   - Automatically plumbed server interactions (triggered through `:remote` at transaction time)
   - Use of the same abstract symbol for the operation on the client and server.
